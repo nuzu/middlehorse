@@ -2,9 +2,9 @@
   "name": "middlehorse",
   "version": "0.0.1",
   "description": "A handy tool for Express Node.js apps to quickly implement the usual middleware with options set in a config file/object.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/nuzu/middlehorse/issues"
   },
-  "homepage": "https://github.com/nuzu/middlehorse#readme"
+  "homepage": "https://github.com/nuzu/middlehorse#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
 }
