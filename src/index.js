@@ -17,6 +17,5 @@ export default (app, {
    if(!corsOptions.disable) {
        app.use(require('cors')())
    }
-   
    return app
 }
