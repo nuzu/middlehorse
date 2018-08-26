@@ -11,7 +11,6 @@ Includes
 - cors
 - templating engines that are also supported by consolidate.js
 
-
 ## Installation
 
 `npm install middlehorse --save`

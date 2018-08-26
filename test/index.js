@@ -19,7 +19,7 @@ const middlehorseConfig = {
   },
   template: {
     engine: 'react',
-    templateFolder: '../test'
+    templateFolder: 'test'
   }
 }
 

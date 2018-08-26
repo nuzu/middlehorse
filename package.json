@@ -1,6 +1,6 @@
 {
   "name": "middlehorse",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A handy tool for Express Node.js apps to quickly implement the usual middleware with options set in a config file/object.",
   "main": "./dist/index.min.js",
   "scripts": {
