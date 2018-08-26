@@ -25,7 +25,6 @@ export default (app, {
     }
    
     if(!templateOptions.disable) {
-        console.log(process.cwd())
         app.set('views', require('path').join(process.cwd(), templateFolder))
         app.set('view engine', templateExtension)
         app.engine(templateExtension, require('consolidate')[engine])
