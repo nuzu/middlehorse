@@ -9,8 +9,8 @@ Includes
 - body-parser
 - cookie-parser
 - cors
+- templating engines that are also supported by consolidate.js
 
-It **does not** include any templating or view engine. 
 
 ## Installation
 
@@ -28,7 +28,7 @@ const middlehorseConfig = {
   static: {
     disable: false,
     path: 'file',
-    folder: 'public'
+    staticFolder: 'public'
   },
   logging: {
     logger: 'morgan',

@@ -7,7 +7,7 @@ const middlehorseConfig = {
   static: {
     disable: false,
     path: 'file',
-    folder: 'public'
+    staticFolder: 'public'
   },
   logging: {
     logger: 'morgan',
@@ -16,9 +16,15 @@ const middlehorseConfig = {
   bodyParser: {
     json: true,
     urlEncoded: true
+  },
+  template: {
+    engine: 'react',
+    templateFolder: '../test'
   }
 }
 
 middlehorse(app, middlehorseConfig)
+
+app.use('/test', (req, res) => res.render("test"))
 
 app.listen(4000)
